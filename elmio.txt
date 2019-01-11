@@ -1,0 +1,135 @@
+body{
+	background-image: url(../img/dulcesFondo.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+nav{
+	background-color: rgba(0,0,0,0.6);
+	position: fixed;
+	left:0; /*Para que se pegue bien a la izquierda y bien arriba*/
+	top: 0;
+	width: 100%; /*Para que se ajuste al 100*/
+	height: auto;
+	z-index: 99; /*Para que se sobreponga*/
+
+}
+
+nav a > img {
+	height: 63px;
+	margin-left: 110px;
+	vertical-align: bottom;
+}
+
+nav ul{
+	display: inline-block;
+	position: absolute;
+	margin-left: 110px;
+	margin-top: 10px;
+}
+
+nav ul > li{
+	list.style:none;
+	display: inline;
+	background-color: #DE1F86;
+	padding: 15px 50px;
+	margin-right: -7px;
+	font-size: 30px;
+}
+
+nav ul > li:hover{
+	background-color: #50A947;
+}
+
+li a{
+	font-family: 'Coiny',cursive; /*PARA QUE SI NO ENCUENTRA COINY PONGA CURSIVE*/
+	text-decoration: none; /*Para que no subraye*/
+	color: white;
+}
+
+footer{
+	width: 100%;
+	height: 50px;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	background-color: #50A947;
+	padding-top: 12px;
+}
+
+main{
+	position: relative;
+	top: 70px;
+	display: inline-block;
+	padding-bottom: 90px;
+	width: 100%;
+}
+
+.contenedor{
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.redes{
+	display: inline-block;
+	position: absolute;
+	top: 15%;
+	left: 5%;
+	color: white;
+	font-family: 'Coiny',cursive; 
+	font-size: 15px;
+}
+
+.redes a > img{
+	height: 35px;
+	vertical-align: middle;
+}
+
+footer > span{
+	float: right;
+	color: white;
+	position: relative;
+	top: 25%;
+	font-family: sans-serif;
+	font-size: 12px;
+}
+
+foooter div + span{
+	float: top;
+	right: 750px;
+	font-family: 'Coiny',cursive;
+	font-size: 15px;
+}
+
+#Bienvenida{
+	font-family: sans-serif;
+	text-align: center;
+	color: #50A947;
+	font-size: 75px;
+	letter-spacing: 4px; /* Espacio de una letra a otra*/
+	-webkit-text-stroke: 4px rgba(255,255,255,0.8);
+}
+
+h1#Bienvenida + h2{
+	color: red;
+	font-size: 45px;
+	background-color: lightgray;
+	width: 80%;
+	box-shadow: 31px -28px 29px 12px rgba(120,50,50,1);
+	border-left: 20px solid red;
+	padding: 20px 0 20px 20px;
+	border-radius: 0 20px 20px 0;
+	font-family: sans-serif;
+	-webkit-text-stroke: 1px white;
+}
+
+
+
+
+
+
+
+
+
+
+/*EL MÍO*/ /*CHÉCHALO*/
